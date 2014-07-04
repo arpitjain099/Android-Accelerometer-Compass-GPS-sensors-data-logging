@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget28"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusable="true"
+    android:orientation="vertical" 
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Duration - Digits Only:" 
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/duration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:digits="0123456789" />
+
+    <Button
+        android:id="@+id/btnWriteSDFile"
+        android:layout_width="fill_parent"
+        android:layout_height="150px"
+        android:text="1. Write to SD File" />
+
+    <Button
+        android:id="@+id/btnClose"
+        android:layout_width="fill_parent"
+        android:layout_height="150px"
+        android:text="2. Close" />
+
+    <TextView
+        android:id="@+id/tvHeading"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.06"
+        android:gravity="center"
+        android:text="Heading: 0.0" />
+
+    <ImageView
+        android:id="@+id/imageViewCompass"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25"
+        android:gravity="center"
+        android:src="@drawable/img_compass" />
+
+</LinearLayout>
